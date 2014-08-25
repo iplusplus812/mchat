@@ -2,9 +2,17 @@ doctype html
 html
 	head
 		title='Real time web chat'
+		script(src="/js/underscore.js")
+		script(src="/js/jquery.js")
+		script(src="/js/chat.js")
+		script(src="/socket.io/socket.io.js")
 	body
 		h1 Real time web chat
 		#content(style='width:500px;height:300px;margin:0 0 20px 0;border:solid 1px #999; overflow-y:scroll;')
 		.controls
-			input.field(style='width:350px;')
-			input.send(type='button',value='send')
+			| Name: 
+			br
+			input#name(style="width:350px;")
+			br
+			input#field(style='width:350px;')
+			input#send(type='button',value='send')
