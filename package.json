@@ -1,0 +1,27 @@
+{
+  "name": "RealTimeWebChat",
+  "version": "0.0.1",
+  "description": "Real time web chat",
+  "dependencies": {
+      "socket.io": "latest",
+      "express": "latest",
+      "jade": "latest"
+    },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iplusplus812/mchat.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "iplusplus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iplusplus812/mchat/issues"
+  },
+  "homepage": "https://github.com/iplusplus812/mchat"
+}
